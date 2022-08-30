@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Formulario com Style </title>
+</head>
+
+<body>
+
+    <section class="formulario">
+
+        <p class="titulo"> CADASTRAO DE DEV's </p>
+        <p class="subtitulo"> Complete as seguintes informações: </p>
+
+        <form>
+
+            <div class="linha1">
+
+                <div class="campo"> 
+                    <label> Login </label>
+                    <input type="text" class="campos">
+
+
+                </div>
+
+                <div class="campo"> 
+                    <label> Senha </label>
+                    <input type="password" class="campos">
+
+                </div>
+
+            </div>
+
+            <div class="linha2"> 
+
+                <div class="campo">
+                    <label> E-mail </label>
+                    <input type="text" class="campos">
+
+                </div>
+
+            </div>
+
+            <label for="De qual lado você desenvolve? "></label>
+
+            <div>
+                <input type="radio" id="ra" name="r"><label for="ra"> Front End <!-- colocando o id e for com o id, faz com que seja possivel assinalar a oopção so de clicar encima do nome--> 
+            </div>
+
+            <div> 
+                <input type="radio" name="r"> Banck-end
+            </div>
+
+            <div>
+                <input type="radio" name="r"> Full Stac
+            </div>
+
+            <div>
+                <label> Senioridade </label>
+            </div>
+
+            <select>
+                <option value="S1"> Selecione </option>
+                <option value="S1"> Junior </option>
+                <option value="S1"> Pleno </option>
+                <option value="S1"> Senior </option>
+
+            </select>
+
+            <div>
+                <label> Selecione as tecnologias que você ultiliza</label>
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox"><label> Html </label>
+                <input type="checkbox"><label> Css </label>
+                <input type="checkbox"><label> Java Script </label>
+                <input type="checkbox"><label> PHP </label>
+                <input type="checkbox"><label> Python </label>
+                <input type="checkbox"><label> Ruby</label>
+                <input type="checkbox"><label> C#</label>
+
+            </div>
+
+            <div>
+                <label> Conte um pouco da sua experiencia: </label>
+            </div>
+
+            <div>
+                <textarea rows="5" cols="60"> </textarea> <!--rows é linhas e cols é colunas-->
+            </div>
+
+            <div>
+                <input type="button" value="Enviar">
+            </div>
+
+
+
+
+        </form>
+
+    </section>
+    
+</body>
+</html>

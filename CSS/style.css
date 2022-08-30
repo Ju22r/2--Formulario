@@ -1,0 +1,58 @@
+body {
+    background-color: crimson;
+}
+
+
+.formulario{
+    width: 600px;
+    height: 500px;
+    margin: auto; /*centraliza o formulario no meio da pagina*/
+
+}
+
+form{
+    width: 300px;
+
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+
+}
+
+.campo label{
+    margin-left: 3%;
+
+
+}
+
+.campos{
+    width: 240px;
+    height: 30px;
+    padding-left: 5px;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+.linha1{
+    display: flex;
+
+
+}
+
+.checkbox{
+    width: 800px;
+
+
+}
